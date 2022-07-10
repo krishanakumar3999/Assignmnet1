@@ -1,0 +1,231 @@
+input[name="cuisine"] {
+    accent-color: dodgerblue;
+}
+
+input[name="cost"] {
+    accent-color: dodgerblue;
+}
+
+input[name="sort-item"] {
+    accent-color: dodgerblue;
+}
+
+.navbar {
+    background-color: #ce0505;
+    height: 50px;
+    padding: 10px 10px 30px 10px;
+}
+
+.logo {
+    display: inline-block;
+    background-color: white;
+    color: #ce0505;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-left: 100px;
+    width: 50px;
+    align-items: center;
+}
+
+.login-btn {
+    display: inline-block;
+    margin-left: 60%;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+.create-btn {
+    display: inline-block;
+    margin-left: 1%;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+.heading {
+    text-align: left;
+    font: normal normal bold 55px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+.main-content {
+    box-shadow: 0px 3px 6px #192F60;
+    opacity: 1;
+    padding-left: 50px;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.filter {
+    font: normal normal 600 27px Poppins;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #192F60;
+    padding-right: 26px;
+    margin-left: -7%;
+}
+
+.location {
+    padding-top: 5%;
+    color: #192F60;
+}
+
+.cuisine-type {
+    text-align: left;
+    font: normal normal 600 27px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+
+.cost-item {
+    text-align: left;
+    font: normal normal 600 27px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+
+.sort-item {
+    text-align: left;
+    font: normal normal 600 27px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+
+
+.upper {
+    display: inline-block;
+    width: 1063px;
+    height: 260px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 300px;
+    position: absolute;
+    top: 0px;
+    box-shadow: 0px 3px 6px #192F60;
+}
+
+.lower {
+    display: inline-block;
+    width: 1063px;
+    height: 260px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 300px;
+    position: absolute;
+    top: 400px;
+    box-shadow: 0px 3px 6px #192F60;
+
+}
+
+.img {
+    position: absolute;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    padding: 10px 0px 0px 20px;
+    margin: 10px 0px 0px 15px;
+}
+
+.food-img {
+    border-radius: 20px;
+}
+
+.line {
+    border: 1px solid #DEDFE5;
+    opacity: 1;
+    top: 150px;
+    margin: 3px 35px;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    margin-left: 125px;
+    left: 200px;
+}
+
+.subheading {
+    text-align: left;
+    font: normal normal 600 46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.area {
+    text-align: left;
+    font: normal normal 300 30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.address {
+    text-align: left;
+    font: normal normal normal 30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+}
+
+.type {
+    text-align: left;
+    font: normal normal normal 30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    width: 227px;
+    display: inline-block;
+    margin-top: 162px;
+    padding-right: 20%;
+    margin-left: 39px;
+    left: 200px;
+}
+
+.bm {
+    text-align: left;
+    font: normal normal normal 30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+    width: 126px;
+    display: inline-block;
+    margin-top: 168px;
+    margin-left: -155px;
+
+}
+
+.footer {
+    position: absolute;
+    left: 660px;
+    bottom: 56px;
+    width: 1000px;
+    margin-bottom: -40px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
